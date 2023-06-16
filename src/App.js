@@ -5,7 +5,7 @@ import ImageList from "./components/ImageList"
 
 function App() {
 
-    const [images, setImages] = useState('')
+    const [images, setImages] = useState([])
 
     const handleSubmit = async (term) => {
         //Search for images with the value 'term'
